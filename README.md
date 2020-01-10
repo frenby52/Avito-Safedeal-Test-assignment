@@ -1,0 +1,1 @@
+# Avito-Safedeal-Test-assignment
