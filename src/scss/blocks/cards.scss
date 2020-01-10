@@ -1,0 +1,28 @@
+.cards__wrapper {
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 280px;
+}
+
+.cards__card-item {
+  margin-bottom: 30px;
+}
+
+.cards__error {
+  margin: 0 auto;
+  text-align: center;
+  color: $red-color;
+  font-size: 20px;
+}
+
+@media (min-width: $desktop-width) {
+  .cards__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 728px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

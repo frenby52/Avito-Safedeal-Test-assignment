@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --open",
+    "eslint": "eslint src/**/*.js",
+    "test": "npm run eslint"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.1",
+    "eslint": "6.1.0",
+    "eslint-config-htmlacademy": "0.5.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0"
+  },
+  "engines": {
+    "node": "10"
+  },
+  "dependencies": {
+    "he": "1.2.0"
+  }
+}

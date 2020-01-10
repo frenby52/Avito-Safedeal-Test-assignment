@@ -1,0 +1,149 @@
+.card-popup {
+  position: fixed;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -268px;
+  box-sizing: border-box;
+  z-index: 10;
+  background-color: $white-color;
+  width: 320px;
+  min-height: 412px;
+}
+
+.card-popup__picture {
+  margin: 0;
+  margin-bottom: 25px;
+  line-height: 0;
+  font-size: 0;
+}
+
+.card-popup__image {
+  width: 320px;
+  height: 205px;
+}
+
+.card-popup__comments-list {
+  margin: 0 auto;
+  margin-bottom: 40px;
+  width: 276px;
+}
+
+.card-popup__comment-date {
+  margin: 0;
+  margin-bottom: 5px;
+  color: $dark-gray-color;
+}
+
+.card-popup__comment-text {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.card-popup__new-comment {
+  margin: 0 auto;
+  margin-bottom: 48px;
+  width: 276px;
+}
+
+.card-popup__comment-input {
+  margin-bottom: 20px;
+  padding-top: 7px;
+  padding-bottom: 8px;
+  padding-left: 10px;
+  width: 100%;
+  background: $white-color;
+  border: 1px solid $gray-color;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.card-popup__comment-input:hover,
+.card-popup__comment-input:focus {
+  border: 1px solid $black-color;
+}
+
+.card-popup__comment-input:invalid {
+  border: 1px solid $red-color;
+}
+
+.card-popup__submit-btn {
+  padding-top: 7px;
+  padding-bottom: 8px;
+  width: 100%;
+  background: $blue-color;
+  border: none;
+  border-radius: 3px;
+  color: $white-color;
+}
+
+.card-popup__submit-btn:hover,
+.card-popup__submit-btn:focus {
+  background: $dark-blue-color;
+  cursor: pointer;
+}
+
+.card-popup__close-btn {
+  position: absolute;
+  right: 21px;
+  top: 21px;
+  font-size: 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+}
+
+.card-popup__close-btn::before {
+  content: "✕";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  top: 0;
+  font-size: 25px;
+  line-height: 1;
+  color: $black-color;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-popup__close-btn:hover::before,
+.card-popup__close-btn:focus::before{
+  opacity: 0.6;
+}
+
+@media (min-width: $desktop-width) {
+  .card-popup {
+    display: block;
+    top: 50%;
+    left: 50%;
+    margin-left: -309px;
+    margin-top: -212px;
+    padding: 30px;
+    width: 619px;
+    min-height: 425px;
+  }
+
+  .card-popup__picture {
+    float: left;
+    margin-bottom: 30px;
+  }
+
+  .card-popup__image {
+    width: 331px;
+  }
+
+  .card-popup__comments-list {
+    float: right;
+    margin: 0;
+    width: 214px;
+  }
+
+  .card-popup__new-comment {
+    margin: 0;
+    width: 331px;
+  }
+}

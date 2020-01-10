@@ -1,0 +1,13 @@
+.footer__copyright {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $gray-color;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-top: 1px solid $gray-color;
+  flex-shrink: 0;
+  text-align: center;
+}
