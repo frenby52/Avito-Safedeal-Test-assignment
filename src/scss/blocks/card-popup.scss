@@ -93,9 +93,9 @@
 }
 
 .card-popup__close-btn {
-  position: absolute;
-  right: 21px;
-  top: 21px;
+  position: fixed;
+  right: calc(50% - 139px);
+  top: calc(50% - 247px);
   font-size: 0;
   padding: 0;
   border: 0;
@@ -153,5 +153,10 @@
   .card-popup__new-comment {
     margin: 0;
     width: 331px;
+  }
+  
+   .card-popup__close-btn {
+    right: calc(50% - 288px);
+    top: calc(50% - 191px);
   }
 }
