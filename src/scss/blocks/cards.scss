@@ -1,4 +1,4 @@
-.cards__wrapper {
+.cards {
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -17,12 +17,15 @@
 }
 
 @media (min-width: $desktop-width) {
-  .cards__wrapper {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  .cards {
     width: 728px;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  
+  .cards__wrapper {
+    margin-left: -20px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
