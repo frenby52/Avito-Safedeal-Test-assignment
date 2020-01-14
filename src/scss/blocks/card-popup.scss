@@ -10,6 +10,14 @@
   background-color: $white-color;
   width: 320px;
   min-height: 412px;
+  max-height: 70vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.card-popup::-webkit-scrollbar {
+  width: 0;
 }
 
 .card-popup__picture {
